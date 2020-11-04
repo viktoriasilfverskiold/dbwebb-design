@@ -32,4 +32,5 @@ $pico = new Pico(
 //$pico->setConfig(array());
 
 // run application
+// test
 echo $pico->run();
