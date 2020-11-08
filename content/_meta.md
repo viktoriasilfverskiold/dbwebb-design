@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/viktoria.jpg
+Tagline: Viktoria Silfverskiöld.
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      url: https://github.com/viktoriasilfverskiold/dbwebb-design
       icon: github
 ---
