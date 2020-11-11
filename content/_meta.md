@@ -4,5 +4,4 @@ Tagline: Viktoria Silfverskiöld.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/viktoriasilfverskiold/dbwebb-design
-      icon: github
----
+      icon: fab fa-github
