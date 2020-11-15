@@ -17,7 +17,7 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
 
 </head>
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
@@ -72,9 +72,23 @@
                         <span class="sr-only">{{ social.title }}</span>
                     </a>
                 {% endfor %}
+
+              {% for clock in pages["_meta"].meta.clock %}
+                    <a href="{{ clock.url }}" title="{{ clock.title }}" role="button">
+                        <i class="{{ clock.icon }}" aria-hidden="true"></i>
+                        <span class="sr-only">{{ clock.title }}</span>
+                    </a>
+                {% endfor %}
+
+                 {% for news in pages["_meta"].meta.news %}
+                    <a href="{{ news.url }}" title="{{ news.title }}" role="button">
+                        <i class="{{ news.icon }}" aria-hidden="true"></i>
+                        <span class="sr-only">{{ news.title }}</span>
+                    </a>
+                {% endfor %}
             </div>
             <p>
-                En footer med lite text.
+                Footer
             </p>
         </div>
     </div>
