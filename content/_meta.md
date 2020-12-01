@@ -13,4 +13,12 @@ News:
     - title: Länk till nyhetssida
       url: https://omni.se/
       icon: far fa-newspaper
+Moon:
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon 
+Trash:
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash
 ---
