@@ -6,10 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "watch": "sass viktoria/scss/style.scss viktoria/css/style.css --no-source-map",
-    "watch-min": "sass viktoria/scss/style.scss viktoria/css/style.min.css --no-source-map --style compressed --watch",
-    "style": "sass viktoria/scss/style.scss viktoria/css/style.css --no-source-map",
-    "style-min": "sass viktoria/scss/style.scss viktoria/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass aurora/scss/style.scss:aurora/css/style.css aurora/scss/style-dark.scss:aurora/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass aurora/scss/style.scss:aurora/css/style.min.css aurora/scss/style-dark.scss:aurora/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-light": "sass viktoria/scss/style.scss viktoria/css/style.css --no-source-map",
+    "style-light-min": "sass viktoria/scss/style.scss viktoria/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass viktoria/scss/style-dark.scss viktoria/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass viktoria/scss/style-dark.scss viktoria/css/style-dark.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
