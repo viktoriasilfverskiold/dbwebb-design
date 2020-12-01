@@ -1,10 +1,23 @@
 ---
 Title: Kmom02
 Description: This is my kmom02 page.
+Template: kmom
 ---
 
 Kmom02
 ==========================
+<div class="kmom-grid">
+    <div class="reportnav-box">
+        <a href="kmom01"><h2>Kmom01<h2></a>
+        <a href="kmom02"><h2>Kmom02<h2></a>
+        <a href="kmom03"><h2>Kmom03<h2></a>
+        <a href="kmom04"><h2>Kmom04<h2></a>
+        <a href="kmom05"><h2>Kmom05<h2></a>
+        <a href="kmom06"><h2>Kmom06<h2></a>
+        <a href="kmom10"><h2>Project<h2></a>
+    </div>
+    <div class="report-box">
+<p>Kmom02<p>
 
 * Vad tycker du om SASS än så länge?
 
@@ -28,3 +41,5 @@ De uppdelningar som finns hittills är att typografi och variablar har egna modu
 * Vilken är din TIL för detta kmom?
 
 Att verkligen pausa när jag utvecklar ett kmom, mycket av det som löser sig, löser sig efter att jag har tagit en paus och inte stirrat mig blind. Även om man vill arbeta effektivt så behöver man pauser vilket i slutändan kommer göra arbetet bättre. Jag lär mig fortfarande hur allting hänger ihop men allt blir tydligare när jag tagit en kort paus. Det är intressant att det funkar så med tanke på att det verkar som att problemen ligger långt bak i huvudet och marineras även om man gör något helt annat, och plötsligt faller polletten ner. 
+</div>
+</div>
