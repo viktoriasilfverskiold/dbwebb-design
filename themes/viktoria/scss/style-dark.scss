@@ -1,0 +1,60 @@
+@import 'old';
+@import 'typography';
+@import 'old';
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import '../../node_modules/normalize.css/normalize';
+@import 'layout';
+@import 'footer';
+@import 'base';
+
+$font-color: rgb(163, 155, 155);
+$accent-color: rgba(18, 18, 18);
+$background-color: rgb(40, 40, 40);
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+*:focus {
+    outline: 0;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+    background: $background-color;
+    color: $font-color;
+}
+
+.header {
+    flex: 0 0 auto;
+    filter: grayscale(40%);
+}
+
+.container {
+    max-width: 48em;
+    padding: 0 0.5em;
+    margin: 0 auto;
+}
+
+.widescreen .container {
+    max-width: 72em;
+}
