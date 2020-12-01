@@ -1,3 +1,15 @@
+@import '../../node_modules/normalize.css/normalize';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto&display=swap');
+
+$font-size: 1em;
+$line: 1.4;
+$magic-number: $font-size * $line;
+
 html {
     font-size: 100%;
 }
@@ -7,10 +19,10 @@ h2,
 h3,
 h4,
 h5,
-h6, {
+h6 {
     font-family: 'Barlow', sans-serif;
+    text-align: center;
 }
-
 
 p {
     font-size: $font-size;
