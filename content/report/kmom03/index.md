@@ -1,10 +1,23 @@
 ---
-Title: Kmom02
-Description: This is my kmom02 page.
+Title: Kmom03
+Description: This is my kmom03 page.
+Template: kmom
 ---
 
-Kmom02
+Kmom03
 ==========================
+<div class="kmom-grid">
+    <div class="reportnav-box">
+        <a href="kmom01"><h2>Kmom01<h2></a>
+        <a href="kmom02"><h2>Kmom02<h2></a>
+        <a href="kmom03"><h2>Kmom03<h2></a>
+        <a href="kmom04"><h2>Kmom04<h2></a>
+        <a href="kmom05"><h2>Kmom05<h2></a>
+        <a href="kmom06"><h2>Kmom06<h2></a>
+        <a href="kmom10"><h2>Project<h2></a>
+    </div>
+    <div class="report-box">
+<p>Kmom03<p>
 
 * Hur har det gått att jobba med CSS-Grid/Flexbox?
 
@@ -25,3 +38,5 @@ Jag gjorde om report-sidan. Den är fortfarande inte helt klockren men jag jobba
 * Vilken är din TIL för detta kmom?
 
 Jag känner att tanskesättet kring hemsidan ändras helt när man börjar jobba med grid/flexbox. Så sättet att arbeta med detta är verkligen en uppenbarelse i sig. 
+</div>
+</div>
