@@ -16,7 +16,10 @@ Jag kommer att jämföra startsida och dess färger, sedan en undersida om man k
 
 Resultat
 -----------------------
-Aftonbladet 
+Aftonbladet
+
+<img src="../assets/aftonbladet.png" class="max-width" alt="Aftonbladet" />
+
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -31,6 +34,8 @@ Aftonbladet har framförallt fyra utstickande färger som är återkommande, en 
 
 Expressen
 
+<img src="../assets/expressen.png" class="max-width" alt="Expressen" />
+
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #212121">
@@ -44,6 +49,8 @@ Expressen använder sig av fyra utstickande färger som är återkommande, en sv
 Det finns även en gul färg i deras logga men den är inte återkommande på resten av sidan. Accentfärgen för Expressen är blå och röd. På expressen är rubrikerna skrivna inom en h2 i storlek 20. Fonterna som används är siri,arial narrow och arial i sans-serif. Rubriken har en serif style. Brödtexten är skriven inom en paragraph i fonten Arial. 
 
 Omni
+
+<img src="../assets/omni.png" class="max-width" alt="Omni" />
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -66,6 +73,7 @@ Omni å andra sidan har ett mycket lugnare intryck än Aftonbladet och Expressen
 
 Omnis reklaminslag går nästan ihop med resten av sidan, även om den har en annan bakgrundsfärg än resten av nyheterna medans Aftonbladets eller Expressens reklamer ofta rör på sig och då framstår som reklam mer.  
 
+Upplever att Aftonbladet använder sig av ett komplementerande färschema. Borträknat från svart och vitt så används rött och gult. Expressen har likaså ett splittrat komplementerande färgschema med blå och röd. Omni använder sig av ett monokramatiskt färgschema i grönt i olika nyanser. 
 
 Övrigt
 -----------------------
