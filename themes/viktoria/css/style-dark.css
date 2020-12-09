@@ -14759,6 +14759,26 @@ p {
   font-family: sans-serif;
 }
 
+.gallery {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em 1em;
+  padding: 1em;
+}
+
+@media (max-width: 992px) {
+  .gallery {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
 .report-grid {
   display: grid;
   gap: 1em 1em;
@@ -14816,9 +14836,59 @@ p {
   .landingpage h1,
 .kmom-box,
 .kmom-box.project,
-.report-grid h1,
-.report-box {
+.report-grid h1 {
     grid-column: span 1;
+  }
+
+  .report-grid,
+.kmom-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .report-box {
+    grid-column: 1;
+  }
+
+  .reportnav-box {
+    display: none;
+  }
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em 1em;
+  padding: 1em;
+}
+
+@media (max-width: 992px) {
+  .gallery {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .gallery {
+    grid-template-columns: 1fr;
   }
 }
 * {
