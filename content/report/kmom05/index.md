@@ -30,8 +30,9 @@ Det kan vara svårt att hitta en bra balans kring laddningstid och design. Mycke
 Att det kan vara värt att utvärdera sin sida för att optimera den, jag tror exempelvis att Expressen hade tjänat på att inte ha en annons som startsida innan man redirectas till startsidan. Har inte haft så djupa analyser kring laddningstid innan så det var intressant att undersöka. 
 
 
+
+</div>
+</div>
 <div class="embed-container">
     <iframe src="https://www.youtube.com/embed/gCwjLPBqpa0" frameborder="0" allowfullscreen></iframe>
-</div>
-</div>
 </div>
