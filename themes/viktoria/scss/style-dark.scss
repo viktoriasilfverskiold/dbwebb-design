@@ -1,14 +1,9 @@
-@import 'old';
 @import 'typography';
-@import 'old';
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
-@import '../../node_modules/normalize.css/normalize';
-@import 'layout';
-@import 'footer';
 @import 'base';
+@import 'old';
 @import 'gallery';
 
-$font-color: rgb(163, 155, 155);
+$font-color: rgb(255,255,255);
 $accent-color: rgba(18, 18, 18);
 $background-color: rgb(40, 40, 40);
 
@@ -23,6 +18,7 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
+    color: $font-color;
 }
 
 *:focus {
